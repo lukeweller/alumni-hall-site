@@ -1,0 +1,258 @@
+body {
+  margin: 0;
+  background-color: #05386B;
+}
+
+/*------------------------------------------------------------------------------- The BG image holder */
+
+.row {
+  overflow: hidden;
+}
+
+.hero-holder {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  height: 400px; 
+  /* 
+  The above height, and the following media queries are to account for 100vh not working on some mobile browsers 
+  and therefore showing the rest of the page content until the jquery kicks in.
+  */
+
+  background-color: #808080;
+  /*
+  In this example this color is set to allow the logo to display whilst waiting for the jquery to kick in.
+  Set it to something that works for your design. Or piss it off.
+  */
+}
+
+@media ( min-height: 401px ) {
+  .hero-holder {
+    height: 600px;
+  }
+}
+
+@media ( min-height: 601px ) {
+  .hero-holder {
+    height: 800px;
+  }
+}
+
+@media ( min-height: 801px ) {
+  .hero-holder {
+    height: 1024px;
+  }
+}
+
+@media ( min-height: 1025px ) {
+  .hero-holder {
+    height: 100vh;
+  }
+}
+
+/*------------------------------------------------------------------------------- The BG image */
+
+.hero-image {
+  display: none;
+  /*
+  We set this as the initial class for the image so that whilst the page is loading we don't show 
+  an unstyled image in the hero-holder.
+  */
+}
+
+.hero-image-width { 
+  display: inline;
+  width: 100%; 
+  height: auto;
+  position: relative; 
+  top: 50%; 
+}
+
+.hero-image-height { 
+  display: inline;
+  height: 100%; 
+  width: auto;
+  position: relative; 
+  left: 50%; 
+}
+
+/*------------------------------------------------------------------------------- The centered Logo */
+
+/*
+This centering technique is pinched from: 
+http://stackoverflow.com/questions/18516317/vertically-align-an-image-inside-a-div-with-responsive-height
+*/
+
+.logo-holder {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    text-align:center;
+    font: 0/0 a;
+}
+ 
+.logo-centerer {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+ 
+.logo {
+    vertical-align: middle;
+    display: inline-block;
+    width: 800px;
+    height: auto;
+    max-width: 80%;
+    max-height: 100%;
+}
+
+/*------------------------------------------------------------------------------- The Extra content */
+
+.nav-link {
+    font-weight: bold;
+    color: #05386B;
+}
+
+.extra-content {
+  float: left;
+}
+
+.headings {
+    background-color:  #5CDB95;
+    position: center;
+    width: 100%;
+    color: white;
+    height: 300%;
+    padding: 15px;
+}
+
+.headings-border {
+    background-color: #5CDB95;
+    color: #5CDB95;
+}
+
+.text {
+  height: 100vh;
+}
+
+.card {
+    background-color: #05386B;
+    color: white;
+    border: none
+}
+
+.row-divide {
+    border-bottom: thin;
+    border-style: solid;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-color: white;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.mini-bio {
+    color: white;
+}
+
+.spacer-before-after {
+    display: block;
+    width: 100px;
+    height: 50px;
+}
+
+.spacer-middle {
+    display: block;
+    width: 100px;
+    height: 75px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.padding-0 {
+    padding: 0;
+}
+
+.fa {
+    font-size: 1000% !important;
+    color: #FFFFFF;
+}
+
+.fa-smaller {
+    font-size: 300% !important;
+    color: white;
+    padding: 20px;
+}
+
+a.nav-link.active {
+    background-color: #5CDB95;
+}
+
+.btn {
+    background-color: white;
+    border-color: #05386B;
+    color: black;
+}
+
+.btn:hover {
+    background-color: #5CDB95;
+    color: white;
+    border-color: #2D4262;
+}
+
+section {
+    margin-top: -50px;
+    padding-top: 50px;
+}
+
+.contact-row {
+    background-color: #5CDB95;
+}
+
+.border-row {
+    border-bottom: solid white;
+    border-width: 2px;
+    display: block;
+    height: 50px;
+}
+.contact-row {
+    padding-bottom: 25px;
+}
+
+.bio {
+    margin: 0px;
+    padding: 62px;
+    border-radius: 0px;
+    color: white;
+    background-color: #05386B;
+}
+
+.modal {
+    margin: 50px;
+}
+
+.modal-heading {
+    margin: 50px;
+}
+
+.modal-info {
+    margin-left: 50px;
+    margin-top: 10px;
+}
