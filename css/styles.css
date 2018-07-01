@@ -1,5 +1,5 @@
 html, body {
-  height: 100vh;
+  height: 100%;
   padding-top: 4vh;
 }
 
@@ -36,7 +36,7 @@ a {
 /** hero image **/
 .jumbotron {
   background-image: url("../images/tower-green.png");
-  height: 100vh;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
