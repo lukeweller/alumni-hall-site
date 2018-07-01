@@ -36,6 +36,7 @@ a {
 /** hero image **/
 .jumbotron {
   background-image: url("../images/tower-green.png");
+  background-attachment: fixed;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
