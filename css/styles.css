@@ -1,0 +1,58 @@
+html, body {
+  height: 100%;
+}
+
+/** custom navbar CSS **/
+a {
+  font-family: 'Crimson Text';
+  font-size: 1.2em;
+}
+
+#nav-logo {
+  height: 1.5em;
+}
+
+.bg-alumni {
+  background-color: #106300;
+}
+
+.nav-item {
+  color: #ffffff;
+  -webkit-transition: 750ms;
+  transition: 750ms;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+}
+
+.nav-item:hover {
+  color: rgba(255, 255, 255, 0.6);
+  -webkit-transition: 100ms;
+  transition: 100ms;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+}
+
+/** hero image **/
+.jumbotron {
+  background-image: url("../images/tower-green.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 15vh;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 0.7);
+  padding-bottom: 1.5vh;
+  font-size: 4vw;
+}
+
+.img-responsive {
+  display: inline-block;
+}
+
+#hero-container {
+  margin-top: 8vh;
+}
+/*# sourceMappingURL=styles.css.map */

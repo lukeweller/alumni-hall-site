@@ -10,18 +10,13 @@
     <!-- Link favicon -->
     <link rel="icon" href="images/dawg-green.svg">
         
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Alumni Hall, Home of the Dawgs">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
-    <!-- Link bootstrap javascript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://use.fontawesome.com/e9f87592dc.js"></script>
-
+    <!-- normal and custom CSS-->
     <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
     <link rel="stylesheet" href="css/homepage.css" >
   </head>
@@ -29,8 +24,10 @@
   <body>
     
     <!-- The bg image and logo -->
+    
     <div class="row">
-              <nav class="navbar fixed-top navbar-toggleable navbar-light bg-faded" id="navbar" href="#navbar">
+    <!--
+        <nav class="navbar fixed-top navbar-toggleable navbar-light bg-faded" id="navbar" href="#navbar">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -60,26 +57,91 @@
                 </ul>
             </div>
         </nav>
+    -->
+    <!--
+    <div class="container-fluid">
+       
+        <nav class=" col-12 navbar fixed-top navbar-expand-lg navbar-toggleable navbar-light bg-faded navbar-collapse" id="navbar" href="#navbar">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            <a class="navbar-brand" href="#">
+                <img class="navbar-logo cglogo" src="images/dawg-white.svg" width="100" height="100" alt="">
+            </a>
+                <ul class="nav justify-content-end collapse navbar-collapse" id="navbarToggle">
+                    <li class="nav-item active">
+                        <a class="nav-link aboutme" id="Edu-button" href="#aboutme" style="color: #FFFFFF">About Alumni<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link education" href="#education" style="color: #FFFFFF">Staff<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link experience" href="#experience" style="color: #FFFFFF">Dorm Life<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link projects" href="#projects" style="color: #FFFFFF">Tradition</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link interests" href="#interests" style="color: #FFFFFF">Faith</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link contact" href="#contact" style="color: #FFFFFF">Sports</a>
+                    </li>
+                </ul>
+            
+        </nav>
+    -->
+
+
 
       <div class="hero-holder">
         <img 
           class="hero-image" 
-          srcset="images/tower-green.png  800w, 
-                  images/tower-green.png 1024w,
-                  images/tower-green.png  2024w"
+          srcset="images/tower-green.png  100%, 
+                  images/tower-green.png 100%,
+                  images/tower-green.png  100%"
           sizes="(max-width: 1024px) 200vw,
                 100vw"
           src="images/tower-green.png"
         >
 
         <div class="logo-holder">
-            <div class="logo-centerer"></div>
-            <img class="logo" src="images/AHallBanner.png" alt="logo"/>
+            <div class="logo-centerer">
+            <img class="logo" src="images/AlumniHallName.svg" alt="logo"/>
+        </div>
         </div>
       </div>
     </div>
 
     
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top nav-fill nav-justified">
+            <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                  <a class="nav-link nav-item" href="/about.html">About</a>
+
+                  <a class="nav-link nav-item" href="/staff.html">Staff</a>
+
+                  <a class="nav-link nav-item" href="/traditions.html">Traditions</a>
+
+                  <a class="nav-link nav-item" href="#">
+                    <img src="images/dawg-white.svg" class="d-inline-block" height="50">
+                  </a>
+
+                  <a class="nav-link nav-item" href="/dorm-life">Dorm Life</a>
+
+                    <a class="nav-link nav-item" href="/faith.html">Faith</a>
+
+                    <a class="nav-link nav-item" href="/sports.html">Sports</a>
+
+            </div>
+        </nav>
+    </div>
+      
 
     
     <!-- Add jQuery and our custom javascript -->
@@ -89,6 +151,17 @@
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="javascript/homepage.js"></script>
   
+
+    <!-- Link bootstrap javascript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        
+    <!-- not sure what this code is used for
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/e9f87592dc.js"></script>
+    -->
+        
   </body>
   
 </html>
