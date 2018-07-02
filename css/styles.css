@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /** hero image **/
 .jumbotron {
-  background-image: url(../images/tower-green-sm.png);
+  background-image: url(../images/tower-green.png);
   z-index: -10;
   background-attachment: fixed;
   height: 100%;
@@ -69,45 +69,6 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 25vh;
-}
-
-@media (min-width: 576px) {
-  .jumbotron {
-    background-image: url("../images/tower-green-md.png");
-    z-index: -10;
-    background-attachment: fixed;
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
-
-@media (min-width: 768px) {
-  .jumbotron {
-    background-image: url("../images/tower-green-lg.png");
-    z-index: -10;
-    background-attachment: fixed;
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
-
-@media (min-width: 992px) {
-  .jumbotron {
-    background-image: url("../images/tower-green.png");
-    z-index: -10;
-    background-attachment: fixed;
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 }
 
 #welcome {
