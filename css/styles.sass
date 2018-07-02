@@ -1,11 +1,14 @@
 $primary-color: #106300
-$primary-color-transparent: rgba(16, 99, 0, .2)
+$primary-color-transparent: rgba(16, 99, 0, .9)
+$alumni-dark: #051F08
+$alumni-accent: #ffcc00
+$nd-navy: #0a233f
+
 $white-transparent-6: rgba(255, 255, 255, 0.6)
-$white-transparent-7: rgba(255, 255, 255, 0.7)
+$white-transparent-7: rgba(255, 255, 255, 0.8)
 
 html, body
     height: 100%
-    padding-top: 1.5em
 
 /** custom navbar CSS **/
 a
@@ -16,23 +19,34 @@ a
     height: 1.5em
 
 .bg-alumni
-    background-color: $primary-color
+    background-color: $primary-color-transparent
 
-.nav-item
+.link
     color: #ffffff
     transition: 750ms
     transition-timing-function: ease-out
     
-.nav-item:hover
+.link:hover
     color: $white-transparent-6
     transition: 100ms
-    transition-timing-function: ease-in
-
+    transition-timing-function: ease-in 
+    
+@media (min-width: 768px)
+    .link
+        border-bottom: 2px solid rgba(255, 255, 255, 0)
+        transition: 750ms
+        transition-timing-function: ease-out
+    
+    .link:hover
+        border-bottom: 2px solid $white-transparent-6
+        transition: 100ms
+        transition-timing-function: ease-in 
 
 /** hero image **/
 
 .jumbotron
     background-image: url('../images/tower-green.png')
+    z-index: -10
     background-attachment: fixed
     height: 100%
     background-position: center

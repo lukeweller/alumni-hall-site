@@ -1,6 +1,5 @@
 html, body {
   height: 100%;
-  padding-top: 1.5em;
 }
 
 /** custom navbar CSS **/
@@ -14,10 +13,10 @@ a {
 }
 
 .bg-alumni {
-  background-color: #106300;
+  background-color: rgba(16, 99, 0, 0.9);
 }
 
-.nav-item {
+.link {
   color: #ffffff;
   -webkit-transition: 750ms;
   transition: 750ms;
@@ -25,7 +24,7 @@ a {
           transition-timing-function: ease-out;
 }
 
-.nav-item:hover {
+.link:hover {
   color: rgba(255, 255, 255, 0.6);
   -webkit-transition: 100ms;
   transition: 100ms;
@@ -33,9 +32,27 @@ a {
           transition-timing-function: ease-in;
 }
 
+@media (min-width: 768px) {
+  .link {
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    -webkit-transition: 750ms;
+    transition: 750ms;
+    -webkit-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
+  }
+  .link:hover {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+    -webkit-transition: 100ms;
+    transition: 100ms;
+    -webkit-transition-timing-function: ease-in;
+            transition-timing-function: ease-in;
+  }
+}
+
 /** hero image **/
 .jumbotron {
   background-image: url("../images/tower-green.png");
+  z-index: -10;
   background-attachment: fixed;
   height: 100%;
   background-position: center;
@@ -45,7 +62,7 @@ a {
 }
 
 h1 {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.8);
   padding-bottom: 1.5vh;
 }
 
