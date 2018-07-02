@@ -72,25 +72,37 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 576px) {
   .jumbotron {
-    background-image: url("../images/tower-green-sm.png");
+    background-image: url("../images/tower-green-md.png");
+    z-index: -10;
+    background-attachment: fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
 @media (min-width: 768px) {
   .jumbotron {
-    background-image: url("../images/tower-green-md.png");
+    background-image: url("../images/tower-green-lg.png");
+    z-index: -10;
+    background-attachment: fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
 @media (min-width: 992px) {
   .jumbotron {
-    background-image: url("../images/tower-green-lg.png");
-  }
-}
-
-@media (min-width: 1200px) {
-  .jumbotron {
     background-image: url("../images/tower-green.png");
+    z-index: -10;
+    background-attachment: fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
