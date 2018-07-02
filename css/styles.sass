@@ -53,9 +53,9 @@ h1, h2, h3, h4, h5, h6
         transition-timing-function: ease-in 
 
 /** hero image **/
-
+    
 .jumbotron
-    background-image: url('../images/tower-green.png')
+    background-image: url(../images/tower-green-sm.png)
     z-index: -10
     background-attachment: fixed
     height: 100%
@@ -63,6 +63,26 @@ h1, h2, h3, h4, h5, h6
     background-repeat: no-repeat
     background-size: cover
     padding-top: 25vh
+
+@media (min-width: 576px)
+    .jumbotron
+        background-image: url('../images/tower-green-sm.png')
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px)
+    .jumbotron
+        background-image: url('../images/tower-green-md.png')
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px)
+    .jumbotron
+        background-image: url('../images/tower-green-lg.png')
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px)
+    .jumbotron
+        background-image: url('../images/tower-green.png')
+
 
 #welcome
     color: $white-transparent-7
