@@ -97,8 +97,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .section-title {
   font-size: 4em;
-  padding-bottom: .5em;
+  padding-bottom: .1em;
   color: #fff;
+  border-bottom: 2px solid #ffcc00;
+}
+
+.blockquote {
+  padding: 1em 1em 1em 0;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.4em;
 }
 
 .section-content {
@@ -106,12 +113,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card {
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: #0a233f;
   padding: 1em;
   -webkit-transition: 500ms;
   transition: 500ms;
   height: 100%;
+  border: 2px solid rgba(255, 255, 255, 0.6);
 }
 
 .card:hover {
@@ -128,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #051F08;
   border-color: rgba(255, 255, 255, 0.8);
   padding: .5em .75em;
-  border-radius: 10px;
+  border-radius: 5px;
   -webkit-transition: 500ms;
   transition: 500ms;
 }
