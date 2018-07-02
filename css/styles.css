@@ -1,9 +1,18 @@
 html, body {
   height: 100%;
+  background-color: #051F08;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+}
+
+.card-text, p {
+  font-family: 'Muli', sans-serif;
 }
 
 /** custom navbar CSS **/
-a {
+.link {
   font-family: 'Crimson Text';
   font-size: 1.2em;
 }
@@ -61,12 +70,72 @@ a {
   padding-top: 25vh;
 }
 
-h1 {
+#welcome {
   color: rgba(255, 255, 255, 0.8);
   padding-bottom: 1.5vh;
+  font-size: 4em;
 }
 
 .img-responsive {
   display: inline-block;
+}
+
+/**  About section  **/
+#about {
+  background-color: #051F08;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  margin-top: -2em;
+}
+
+#coatOfArms {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.section-title {
+  font-size: 4em;
+  padding-bottom: .5em;
+  color: #fff;
+}
+
+.section-content {
+  font-size: 1.2em;
+}
+
+.card {
+  border-radius: 20px;
+  background-color: #0a233f;
+  padding: 1em;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  height: 100%;
+}
+
+.card:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: #106300;
+}
+
+.card-title, .card-text {
+  color: #ffffff;
+}
+
+.btn-primary {
+  background-color: #051F08;
+  border-color: rgba(255, 255, 255, 0.8);
+  padding: .5em .75em;
+  border-radius: 10px;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.btn-primary:hover {
+  background-color: #ffcc00;
+  border-color: #ffcc00;
+  color: #051F08;
+  -webkit-transition: 750ms;
+  transition: 750ms;
 }
 /*# sourceMappingURL=styles.css.map */

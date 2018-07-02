@@ -4,14 +4,24 @@ $alumni-dark: #051F08
 $alumni-accent: #ffcc00
 $nd-navy: #0a233f
 
+$soft-gray: #dfdfdf
 $white-transparent-6: rgba(255, 255, 255, 0.6)
 $white-transparent-7: rgba(255, 255, 255, 0.8)
 
 html, body
     height: 100%
+    background-color: $alumni-dark
+    
+
+h1, h2, h3, h4, h5, h6
+    font-family: 'Merriweather', serif
+
+.card-text, p
+    font-family: 'Muli', sans-serif
+
 
 /** custom navbar CSS **/
-a
+.link
     font-family: 'Crimson Text'
     font-size: 1.2em
 
@@ -54,12 +64,56 @@ a
     background-size: cover
     padding-top: 25vh
 
-h1
+#welcome
     color: $white-transparent-7
     padding-bottom: 1.5vh
+    font-size: 4em
 
 .img-responsive
     display: inline-block
 
+/**  About section  **/
+#about
+    background-color: $alumni-dark
+    padding-top: 3em
+    padding-bottom: 2em
+    margin-top: -2em
 
-    
+#coatOfArms
+    padding-top: 1em
+    padding-bottom: 1em
+
+.section-title
+    font-size: 4em
+    padding-bottom: .5em
+    color: #fff
+
+.section-content
+    font-size: 1.2em
+
+.card
+    border-radius: 20px
+    background-color: $nd-navy
+    padding: 1em
+    transition: 500ms
+    height: 100%
+
+.card:hover
+    transition: 1s
+    background-color: $primary-color
+
+.card-title, .card-text
+    color: #ffffff
+
+.btn-primary
+    background-color: $alumni-dark
+    border-color: $white-transparent-7
+    padding: .5em .75em
+    border-radius: 10px
+    transition: 500ms
+
+.btn-primary:hover
+    background-color: $alumni-accent
+    border-color: $alumni-accent
+    color: $alumni-dark
+    transition: 750ms
