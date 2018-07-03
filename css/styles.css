@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
 }
 
-.card-text, p {
+.card-text, p, a {
   font-family: 'Muli', sans-serif;
 }
 
@@ -54,6 +54,38 @@ h1, h2, h3, h4, h5, h6 {
     transition: 250ms;
     -webkit-transition-timing-function: ease-in;
             transition-timing-function: ease-in;
+  }
+}
+
+/* custom footer CSS */
+#footer {
+  padding: 2em 0 2em 0;
+  background-color: #fefff9;
+  margin-top: 2em;
+  border-top: 2px solid #ffcc00;
+  color: #051f08;
+}
+
+footer a {
+  color: #051f08;
+  text-decoration: underline;
+}
+
+.mobile-footer {
+  display: none;
+}
+
+#academic-mark {
+  height: 3em;
+}
+
+@media (max-width: 768px) {
+  .desktop-footer {
+    display: none;
+  }
+  .mobile-footer {
+    display: block;
+    text-align: center;
   }
 }
 

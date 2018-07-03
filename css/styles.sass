@@ -22,7 +22,7 @@ html, body
 h1, h2, h3, h4, h5, h6
     font-family: 'Merriweather', serif
 
-.card-text, p
+.card-text, p, a
     font-family: 'Muli', sans-serif
 
 
@@ -57,6 +57,33 @@ h1, h2, h3, h4, h5, h6
         border-bottom: 2px solid $white-transparent-6
         transition: 250ms
         transition-timing-function: ease-in 
+
+/* custom footer CSS */
+#footer
+    padding: 2em 0 2em 0
+    background-color: $alumni-light
+    margin-top: 2em
+    border-top: 2px solid $alumni-accent
+    color: $alumni-dark
+
+footer a
+    color: $alumni-dark
+    text-decoration: underline
+
+.mobile-footer
+    display: none
+
+#academic-mark
+    height: 3em
+
+@media (max-width: 768px)
+    .desktop-footer
+        display: none
+    
+    .mobile-footer
+        display: block
+        text-align: center
+
 
 /** hero image **/
 
