@@ -21,11 +21,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-alumni {
-  background-color: #106300;
+  background-color: rgba(5, 31, 8, 0.9);
 }
 
 .link {
-  color: #ffffff;
+  color: #fff;
   -webkit-transition: 750ms;
   transition: 750ms;
   -webkit-transition-timing-function: ease-out;
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 25vh;
 }
 
-#welcome {
+.banner {
   color: rgba(255, 255, 255, 0.7);
   padding-bottom: 1.5vh;
   font-size: 4em;
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /**  About section  **/
 #about {
-  background-color: rgba(172, 255, 156, 0.2);
+  background-color: #fefff9;
   padding-top: 5em;
   padding-bottom: 2em;
   margin-top: -2em;
