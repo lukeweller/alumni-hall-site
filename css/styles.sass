@@ -1,17 +1,20 @@
-$primary-color: #106300
-$primary-color-transparent: rgba(16, 99, 0, .9)
-$alumni-dark: #051F08
-$alumni-accent: #ffcc00
-$alumni-accent-t7: rgba(255, 204, 0, .7)
-$nd-navy: #0a233f
+$primary-color: rgb(16,99,0)
 
-$soft-gray: #dfdfdf
+$alumni-light: rgba(172, 255, 156, .2)
+
+$alumni-dark: rgb(5, 31, 8)
+$alumni-dark-t6: rgba(5,31,8,.6)
+
+$alumni-accent: rgb(255, 204, 0)
+$alumni-accent-t7: rgba(255, 204, 0, .7)
+
+$nd-navy: rgb(10, 35, 63)
+
 $white-transparent-6: rgba(255, 255, 255, 0.6)
 $white-transparent-7: rgba(255, 255, 255, 0.7)
 
 html, body
     height: 100%
-    background-color: $alumni-dark
     
 
 h1, h2, h3, h4, h5, h6
@@ -30,7 +33,7 @@ h1, h2, h3, h4, h5, h6
     height: 1.5em
 
 .bg-alumni
-    background-color: $primary-color-transparent
+    background-color: $primary-color
 
 .link
     color: #ffffff
@@ -78,7 +81,7 @@ h1, h2, h3, h4, h5, h6
 
 /**  About section  **/
 #about
-    background-color: $alumni-dark
+    background-color: $alumni-light
     padding-top: 5em
     padding-bottom: 2em
     margin-top: -2em
@@ -90,25 +93,27 @@ h1, h2, h3, h4, h5, h6
 .section-title
     font-size: 4em
     padding-bottom: .1em
-    color: #fff
-    border-bottom: 2px solid $alumni-accent
+    color: $alumni-dark
+    border-bottom: .04em solid $alumni-accent
 
 .blockquote
     padding: 1em 0 1em 0
-    color: $white-transparent-7
+    color: $alumni-dark
     font-size: 1.4em
+
+.blockquote-footer
+    color: $alumni-dark-t6
 
 .section-content
     font-size: 1.2em
-    
 
+/* card css */
 .card
     border-radius: 10px
-    background-color: $nd-navy
+    background-color: $alumni-dark
     padding: 1em
     transition: 500ms
     height: 100%
-    border: 2px solid $white-transparent-6
 
 .card:hover
     transition: 350ms
@@ -116,6 +121,16 @@ h1, h2, h3, h4, h5, h6
 
 .card-title, .card-text
     color: #ffffff
+
+.card-img-top
+    width: 70%
+    margin-left: 15%
+
+@media (max-width: 768px)
+    .card-img-top
+        width: 50%
+        margin-left: 25%
+    
 
 .btn-primary
     background-color: $alumni-dark
