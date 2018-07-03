@@ -35,8 +35,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .link:hover {
   color: rgba(255, 255, 255, 0.6);
-  -webkit-transition: 100ms;
-  transition: 100ms;
+  -webkit-transition: 250ms;
+  transition: 250ms;
   -webkit-transition-timing-function: ease-in;
           transition-timing-function: ease-in;
 }
@@ -51,8 +51,8 @@ h1, h2, h3, h4, h5, h6 {
   }
   .link:hover {
     border-bottom: 2px solid rgba(255, 255, 255, 0.6);
-    -webkit-transition: 100ms;
-    transition: 100ms;
+    -webkit-transition: 250ms;
+    transition: 250ms;
     -webkit-transition-timing-function: ease-in;
             transition-timing-function: ease-in;
   }
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #welcome {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.7);
   padding-bottom: 1.5vh;
   font-size: 4em;
 }
@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 /**  About section  **/
 #about {
   background-color: #051F08;
-  padding-top: 3em;
+  padding-top: 5em;
   padding-bottom: 2em;
   margin-top: -2em;
 }
@@ -103,8 +103,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blockquote {
-  padding: 1em 1em 1em 0;
-  color: rgba(255, 255, 255, 0.8);
+  padding: 1em 0 1em 0;
+  color: rgba(255, 255, 255, 0.7);
   font-size: 1.4em;
 }
 
@@ -123,8 +123,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card:hover {
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 350ms;
+  transition: 350ms;
   background-color: #106300;
 }
 
@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-primary {
   background-color: #051F08;
-  border-color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(255, 255, 255, 0.7);
   padding: .5em .75em;
   border-radius: 5px;
   -webkit-transition: 500ms;
