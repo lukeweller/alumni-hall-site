@@ -33,8 +33,22 @@
     <!-- normal and custom CSS-->
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Muli:300" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script type="text/javascript">
+    $(function() {
+      $(window).scroll(function() {
+
+        //use this number to determine when to switch to fixed menu
+        console.log($(window).scrollTop())
+
+        if ($(window).scrollTop() > 55) $('#navbar').addClass('navbarFixed');
+
+        if ($(window).scrollTop() < 56) $('#navbar').removeClass('navbarFixed');
+
+      });
+    });</script>
 
     </head>
 
@@ -48,7 +62,11 @@
             </ul>
           </nav>
         -->
-      <nav class="navbar navbar-nav navbar-dark bg-alumni navbar-expand-md fixed-top nav-fill">
+      <div class="NDbanner">
+          Notre Dame
+      </div>
+<div id="navbar">
+      <nav class="navbar navbar-nav navbar-dark bg-alumni navbar-expand-md nav-fill">
 
           <div class="container">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -56,18 +74,19 @@
                   <span class="navbar-toggler-icon"></span>
                 </button>
 
-            <a class="nav-link nav-item navbar-brand nav-justified" href="beta.html#">
+            <a class="nav-link nav-item navbar-brand nav-justified" href="#">
               <img src="images/AlumniHallName_solo.svg" class="d-inline-block float-lg-left float-md-left" id="nav-logo">
             </a>
 
             <div class="collapse navbar-collapse justify-content-end col-lg-4 col-md-6" id="navbarNav">
-              <a class="nav-link nav-item link" href="beta.html">About</a>
+              <a class="nav-link nav-item link" href="#about">About</a>
               <a class="nav-link nav-item link" href="faith.html">Faith</a>
               <a class="nav-link nav-item link" href="sports.html">Sports</a>
               <a class="nav-link nav-item link" href="pups.html">Pups</a>
             </div>
           </div>
       </nav>
+  </div>
     </header>
 
     <!-- Hero Image -->
