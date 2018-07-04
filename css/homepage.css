@@ -218,6 +218,15 @@ footer a {
 .btn-top {
   margin-top: 1em;
   text-align: center;
+  border: 2px solid #051f08;
+  background-color: #fefff9;
+  color: #051f08;
+}
+
+.btn-top:hover {
+  background-color: #106300;
+  color: #fefff9;
+  border: 2px solid #106300;
 }
 
 /* hero image */
@@ -247,19 +256,6 @@ footer a {
 
 .img-responsive {
   display: inline-block;
-}
-
-/* cards */
-.btn-top {
-  border: 2px solid #051f08;
-  background-color: #fefff9;
-  color: #051f08;
-}
-
-.btn-top:hover {
-  background-color: #106300;
-  color: #fefff9;
-  border: 2px solid #106300;
 }
 
 #faith {
