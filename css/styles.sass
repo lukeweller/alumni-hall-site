@@ -53,25 +53,19 @@ h1, h2, h3, h4, h5, h6
 
 /** custom navbar CSS **/
 
-.link
-    font-family: 'Crimson Text'
-    font-size: 1.2em
-
 #nav-logo
     height: 1.5em
 
 .bg-alumni
-    background-color: $alumni-dark-t9
-
-.stick-top
-    position: sticky
-    z-index: 1000
-    top: 0
+    background-color: $alumni-dark
 
 .link
+    font-family: 'Crimson Text'
+    font-size: 1.2em
     color: #fff
     transition: 750ms
     transition-timing-function: ease-out
+    padding: .3em 1em
     
 .link:hover
     color: $white-transparent-6
@@ -88,6 +82,9 @@ h1, h2, h3, h4, h5, h6
         border-bottom: 2px solid $white-transparent-6
         transition: 250ms
         transition-timing-function: ease-in 
+    
+    a.active
+        border-bottom: 2px solid #fff
 
 /* custom footer CSS */
 #footer
@@ -122,13 +119,12 @@ footer a
     background-image: url(../images/tower-green.png)
     z-index: -10
     background-attachment: fixed
-    min-height: 100%
-    height: 100%
+    height: 88%
     width: auto
     background-position: center
     background-repeat: no-repeat
     background-size: cover
-    padding-top: 25vh
+    padding-top: 20vh
 
     
 .banner
@@ -146,7 +142,7 @@ footer a
 /**  sections  **/
 .content
     background-color: $alumni-light
-    padding-top: 2em
+    padding-top: 3.5em
     padding-bottom: 2em
     margin-top: -2em
 
@@ -155,7 +151,7 @@ footer a
     padding-bottom: 1em
 
 .section-title
-    font-size: 4em
+    font-size: 3.5em
     padding-bottom: .1em
     color: $alumni-dark
     border-bottom: .04em solid $alumni-accent
@@ -168,7 +164,7 @@ footer a
 .blockquote
     padding: 1em 0 1em 0
     color: $alumni-dark
-    font-size: 1.4em
+    font-size: 1.25em
 
 @media (max-width: 576px)
     .blockquote
