@@ -120,35 +120,6 @@ footer a {
   }
 }
 
-/** hero image **/
-.jumbotron {
-  background-image: url(../images/tower-green.png);
-  z-index: -10;
-  background-attachment: fixed;
-  height: 88%;
-  width: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 20vh;
-}
-
-.banner {
-  color: rgba(255, 255, 255, 0.7);
-  padding-bottom: 1.5vh;
-  font-size: 4em;
-}
-
-@media (max-width: 767px) {
-  .banner {
-    font-size: 2.5em;
-  }
-}
-
-.img-responsive {
-  display: inline-block;
-}
-
 /**  sections  **/
 .content {
   background-color: #fefff9;
@@ -260,6 +231,18 @@ footer a {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 20vh;
+}
+
+.banner {
+  color: rgba(255, 255, 255, 0.7);
+  padding-bottom: 1.5vh;
+  font-size: 4em;
+}
+
+@media (max-width: 767px) {
+  .banner {
+    font-size: 2.5em;
+  }
 }
 
 .img-responsive {
