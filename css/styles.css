@@ -92,6 +92,9 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transition-timing-function: ease-in;
             transition-timing-function: ease-in;
   }
+  a.active {
+    border-bottom: 2px solid #fff;
+  }
 }
 
 /* custom footer CSS */
@@ -159,7 +162,7 @@ footer a {
 /**  sections  **/
 .content {
   background-color: #fefff9;
-  padding-top: 2em;
+  padding-top: 4em;
   padding-bottom: 2em;
   margin-top: -2em;
 }
