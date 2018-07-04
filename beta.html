@@ -12,25 +12,16 @@
     <!-- Link favicon -->
     <link rel="icon" href="images/dawg-green.svg">
 
-    <meta name="description" content="Alumni Hall is the home of the Dawgs and the center of the universe. Established in 1931, Alumni Hall is an all male dorm known for its members' camraderie.">
+    <meta name="description" content="Alumni Hall is the home of the Dawgs and the center of the universe.
+    Established in 1931, Alumni Hall is an all male dorm known for its members' camraderie.">
     <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
 
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="https://normalize-css.googlecode.com/svn/trunk/normalize.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
-    <!-- ND CSS ****figure out how to include UND header***
-    <link rel="stylesheet" href="css/nd/_bootstrap-custom.scss">
-    <link rel="stylesheet" href="css/nd/_nd_fonts.scss">
-    <link rel="stylesheet" href="css/nd/_nd_base.scss">
-    <link rel="stylesheet" href="css/nd/_nd_layout.scss">
-    <link rel="stylesheet" href="css/nd/_nd_theme.scss">
-    <link rel="stylesheet" href="css/nd/_site.scss">
-    <link rel="stylesheet" href="css/nd/application.scss">
-    -->
-
-
     <!-- normal and custom CSS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Muli:300" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" />
@@ -52,21 +43,17 @@
 
     </head>
 
-  <body>
-
-      <!-- Figure out how this works
-        <nav class="brandbar theme-bb-blue container-fluid">
-            <ul class="row">
-              <li class="dept-nd col-lg-6"><a href="https://www.nd.edu/">University of Notre Dame</a></li>
-              <li class="dept dept-current col-lg-6"><a href="https://studentaffairs.nd.edu/">Office of Student Affairs</a></li>
-            </ul>
-          </nav>
-        -->
-      <div class="NDbanner">
-          <img src="images/NDbanner.png" width="300px" >
+  <body id="top">
+    <header>
+      <div class="brand-bar" id="brand">
+        <div class="container">
+          <div class="row">
+            <a href="https://www.nd.edu/" class="col d-inline-block"><img src="images/nd/dept-nd-white@2x.png"></a>
+          </div>
+        </div>
       </div>
-<div id="navbar" style="top: 0;">
-      <nav class="navbar navbar-nav navbar-dark bg-alumni navbar-expand-md nav-fill">
+
+      <nav class="navbar navbar-nav navbar-dark bg-alumni navbar-expand-md  nav-fill" id="main-nav">
 
           <div class="container">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -74,8 +61,8 @@
                   <span class="navbar-toggler-icon"></span>
                 </button>
 
-            <a class="nav-link nav-item navbar-brand nav-justified" href="#">
-              <img src="images/AlumniHallName_solo.svg" class="d-inline-block float-lg-left float-md-left" id="nav-logo">
+            <a class="nav-link nav-item navbar-brand" href="#">
+              <img src="images/AlumniHallName_solo.svg" class="float-lg-left float-md-left float-sm-center" id="nav-logo">
             </a>
 
             <div class="collapse navbar-collapse justify-content-end col-lg-4 col-md-6" id="navbarNav">
@@ -90,14 +77,14 @@
 
 
     <!-- Hero Image -->
-    <div class="jumbotron jumbotron-fluid d-flex justify-content-center" id="hero-container">
+    <div class="jumbotron jumbotron-fluid" id="hero-container">
       <div class="container text-center">
         <h1 class="animated slideInUp banner">WE ARE</h1>
         <img src="images/AlumniHallName_70t.svg" class="img-responsive img-fluid col-sm-12 col-md-10 col-lg-8 animated fadeInUp" id="hero-img">
       </div>
     </div>
 
-    <section id="about">
+    <section class="content" id="about">
       <div class="container">
         <h1 class="col-lg-7 col-md-10 col-sm-12 section-title">About</h1>
 
@@ -131,7 +118,7 @@
                 <h5 class="card-title">Dorm Life</h5>
                 <p class="card-text">
                   Okay, so you're here. You may be asking: &ldquo;What should I expect? How do I live with no AC?
-                   Will I be able to make friends? Will I get along with my roommate?&rdquo;No worries, we got you covered.
+                   Will I be able to make friends? Will I get along with my roommate?&rdquo; No worries, we got you covered.
                 </p>
                 <a href="#" class="btn btn-primary">Living in Alumni</a>
               </div>
@@ -150,10 +137,12 @@
               </p>
               <a href="#" class="btn btn-primary">Meet the Men</a>
               </div>
-           </div>
-         </div>
-       </div>
-
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column">
+          <a href="#top" class="btn btn-primary btn-top align-self-center"><i class="fas fa-arrow-up"></i> Back to Top</a>
+        </div>
       </div>
     </section>
 
@@ -169,7 +158,7 @@
               <br><a href="https://www.nd.edu/about/accessibility/">Accessibility Information</a>
             </p>
           </div>
-          <div class="col-lg-3">
+          <div class="col-md-3">
             <img src="images/nd/ND_mark_blue_L.png" class="float-right" id="academic-mark">
           </div>
         </div>
@@ -192,13 +181,13 @@
           </div>
         </div>
       </div>
-
     </footer>
 
     <!-- Link bootstrap javascript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
 
     <!-- ND JS ** figure out out how to work with ND header/footer
     <script src="javascript/nd/application.js"></script> -->

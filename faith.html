@@ -19,17 +19,6 @@
     <link rel="stylesheet" href="https://normalize-css.googlecode.com/svn/trunk/normalize.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
-    <!-- ND CSS ****figure out how to include UND header***
-    <link rel="stylesheet" href="css/nd/_bootstrap-custom.scss">
-    <link rel="stylesheet" href="css/nd/_nd_fonts.scss">
-    <link rel="stylesheet" href="css/nd/_nd_base.scss">
-    <link rel="stylesheet" href="css/nd/_nd_layout.scss">
-    <link rel="stylesheet" href="css/nd/_nd_theme.scss">
-    <link rel="stylesheet" href="css/nd/_site.scss">
-    <link rel="stylesheet" href="css/nd/application.scss">
-    -->
-
-
     <!-- normal and custom CSS-->
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Muli:300" rel="stylesheet">
@@ -53,42 +42,36 @@
     </head>
 
   <body>
-    <header>
-      <!-- Figure out how this works
-        <nav class="brandbar theme-bb-blue container-fluid">
-            <ul class="row">
-              <li class="dept-nd col-lg-6"><a href="https://www.nd.edu/">University of Notre Dame</a></li>
-              <li class="dept dept-current col-lg-6"><a href="https://studentaffairs.nd.edu/">Office of Student Affairs</a></li>
-            </ul>
-          </nav>
-        -->
-      <div class="NDbanner">
-          Notre Dame
-      </div>
-<div id="navbar">
-      <nav class="navbar navbar-nav navbar-dark bg-alumni navbar-expand-md nav-fill">
-
-          <div class="container">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-
-            <a class="nav-link nav-item navbar-brand nav-justified" href="#">
-              <img src="images/AlumniHallName_solo.svg" class="d-inline-block float-lg-left float-md-left" id="nav-logo">
-            </a>
-
-            <div class="collapse navbar-collapse justify-content-end col-lg-4 col-md-6" id="navbarNav">
-              <a class="nav-link nav-item link" href="#about">About</a>
-              <a class="nav-link nav-item link" href="faith.html">Faith</a>
-              <a class="nav-link nav-item link" href="sports.html">Sports</a>
-              <a class="nav-link nav-item link" href="pups.html">Pups</a>
+      <header>
+          <div class="brand-bar" id="brand">
+            <div class="container">
+              <div class="row">
+                <a href="https://www.nd.edu/" class="col d-inline-block"><img src="images/nd/dept-nd-white@2x.png"></a>
+              </div>
             </div>
           </div>
-      </nav>
-  </div>
-    </header>
 
+          <nav class="navbar navbar-nav navbar-dark bg-alumni navbar-expand-md  nav-fill" id="main-nav">
+
+              <div class="container">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                <a class="nav-link nav-item navbar-brand" href="#">
+                  <img src="images/AlumniHallName_solo.svg" class="float-lg-left float-md-left float-sm-center" id="nav-logo">
+                </a>
+
+                <div class="collapse navbar-collapse justify-content-end col-lg-4 col-md-6" id="navbarNav">
+                  <a class="nav-link nav-item link" href="#about">About</a>
+                  <a class="nav-link nav-item link" href="/faith.html">Faith</a>
+                  <a class="nav-link nav-item link" href="/sports.html">Sports</a>
+                  <a class="nav-link nav-item link" href="/pups.html">Pups</a>
+                </div>
+              </div>
+          </nav>
+        </header>
     <!-- Hero Image -->
     <div class="jumbotronfaith jumbotron-fluid d-flex justify-content-center" id="hero-container">
       <div class="container text-center">
@@ -98,45 +81,89 @@
       </div>
     </div>
 
-    <section id="faith" style="padding-bottom:100px">
+    <section class="content">
         <div class="container">
 
               <!--Faith Content-->
               <h1 class="col-lg-7 col-md-10 col-sm-12 section-title">Faith</h1>
                   <div class="row">
-                        <div class="col-xl-9">
+                        <div class="col-xl-9 col-lg-9 col-md-12">
                                   <!--Eucharist-->
                                   <h2 class="sub-section-title" style="padding-top:40px"> Eucharist </h2>
-                                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dawg Mass is a wonderful way for Alumni Hall to gather as a community.  Every Sunday, people of all faiths and dorms join together in the celebration of the Mass, not just the Christian Dawgs.  Regularly attendees may not only find their bonds with Christ strengthening, but with their fellow Dawgs and Lady Dawgs, too.  The Most Dangerous Mass band beautifully accompanies the congregational, uhh, “singing”, and Fr. George’s, or his hand-picked substitute, always delivers a thought-provoking and uplifting homily geared towards college-age students.  But perhaps one of the best parts of Dawg Mass is the beautiful chapel that the celebration calls home.</p>
+                                  <p>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dawg Mass is a wonderful way for Alumni Hall
+                                    to gather as a community.  Every Sunday, people of all faiths and dorms join together in the
+                                    celebration of the Mass, not just the Christian Dawgs.  Regularly attendees may not only find
+                                    their bonds with Christ strengthening, but with their fellow Dawgs and Lady Dawgs, too.  The
+                                    Most Dangerous Mass band beautifully accompanies the congregational, uhh, “singing”, and Fr.
+                                    George’s, or his hand-picked substitute, always delivers a thought-provoking and uplifting
+                                    homily geared towards college-age students.  But perhaps one of the best parts of Dawg Mass
+                                    is the beautiful chapel that the celebration calls home.
+                                  </p>
                                   <!--Liturgical Ministry-->
                                   <h2 class="sub-section-title" style="padding-top:40px"> Liturgical Ministry </h2>
                                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are several ways to get involved in liturgical ministry in Alumni Hall. The first way is by being a extraordinary eucharistic minister, helping to distribute the Body or Blood of Christ to your fellow Dawgs and Lady Dawgs. The second is by being a lector proclaiming the Word of God. Finally, the third way is by joining the Most Dangerous Mass Band. <br> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To be a extraordinary minister or a lector please contact one of the Liturgical Commissioners. To join the Most Dangerous Mass Band please contact the Liturgical Music Commissioners. </p>
                                   <!--Emmaus-->
                                   <h2 class="sub-section-title" style="padding-top:40px"> Emmaus </h2>
-                                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aside from Mass, another integral component of faith life in Alumni Hall is our student run bible study, Emmaus. Named after the Road to Emmaus, on which the resurrected Christ appeared to two of His disciples and discussed Scripture with them, Emmaus meets every Wednesday night to discuss the Scripture readings for the coming week’s Mass. A place of brotherhood and faith, Emmaus adheres to what we call “the Four P’s”: Prayer, Piety, Pizza, and People!</p>
+                                  <p>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aside from Mass, another integral
+                                    component of faith life in Alumni Hall is our student run bible study, Emmaus. Named after the
+                                     Road to Emmaus, on which the resurrected Christ appeared to two of His disciples and discussed
+                                    Scripture with them, Emmaus meets every Wednesday night to discuss the Scripture readings for
+                                     the coming week’s Mass. A place of brotherhood and faith, Emmaus adheres to what we call
+                                    “the Four P’s”: Prayer, Piety, Pizza, and People!
+                                  </p>
                       </div>
-                          <!--style="padding:20px"-->
-                      <div class="col-sm-3">
+                      <div class="col-sm-12 col-md-12 col-lg-3">
                                   <h2 class="sub-section-title" style="padding-top:40px"> Mass Times </h2>
                                   <p><b>Daily Mass:</b> Monday-Thursday, 10:00 PM<br>
-                                  <b>Tridentine Mass:</b> Saturday, 9:30 AM<br>
+                                  <b>Tridentine (Latin) Mass:</b> Saturday, 9:30 AM<br>
                                   <b>Weekly Mass:</b> Sunday, 10:00 PM<br>
                                   <b>Confession</b> is held from 8:30-9:00 PM on Sunday.<br>
-                                  <b>Game Day Masses</b> typically occur half an hour after afternoon games, or at 5:00 PM before night games.<br></p>
+                                  <b>Game Day Masses:</b> Half an hour after afternoon games, or at 5:00 PM before night games.<br></p>
                       </div>
                 </div>
 
             </div>
     </section>
 
-    <footer>
-      <div class="footer">
-        <div class="col-md-6">
-            Alumni Hall, University of Notre Dame<br><br>
-            Notre Dame, Indiana 46556-4603
+    <footer id="footer">
+        <!--Desktop Footer-->
+        <div class="container desktop-footer">
+          <div class="row">
+            <div class="col-sm-12 col-md-9">
+              <p>
+                <a href="https://www.nd.edu/copyright/" class="footer">Copyright</a> &copy;
+                <script>document.write(new Date().getFullYear())</script> <a href="https://www.nd.edu/" class="wrap">University of Notre Dame</a>
+                <br><a href="beta.html">Alumni Hall</a>&nbsp; 167 Alumni Hall, Notre Dame, IN 46556
+                <br><a href="https://www.nd.edu/about/accessibility/">Accessibility Information</a>
+              </p>
+            </div>
+            <div class="col-md-3">
+              <img src="images/nd/ND_mark_blue_L.png" class="float-right" id="academic-mark">
+            </div>
+          </div>
         </div>
-      </div>
-    </footer>
+      <!-- Mobile footer -->
+      <div class="container mobile-footer">
+          <div class="row">
+            <div class="col-sm-12">
+              <p>
+                <a href="https://www.nd.edu/copyright/" class="footer">Copyright</a> &copy;
+                <script>document.write(new Date().getFullYear())</script>
+                <br><a href="https://www.nd.edu/" class="wrap">University of Notre Dame</a>
+                <br><a href="beta.html">Alumni Hall</a>
+                <br>167 Alumni Hall, Notre Dame, IN 46556
+                <br><a href="https://www.nd.edu/about/accessibility/">Accessibility Information</a>
+              </p>
+            </div>
+            <div class="col-sm-12">
+              <img src="images/nd/ND_mark_blue_M.png" id="academic-mark">
+            </div>
+          </div>
+        </div>
+
+      </footer>
 
     <!-- Link bootstrap javascript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
