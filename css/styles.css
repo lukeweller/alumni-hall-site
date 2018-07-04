@@ -156,8 +156,8 @@ footer a {
   display: inline-block;
 }
 
-/**  About section  **/
-#about {
+/**  sections  **/
+.content {
   background-color: #fefff9;
   padding-top: 5em;
   padding-bottom: 2em;
