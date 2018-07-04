@@ -10,10 +10,14 @@ $alumni-dark-t9: rgba(5,31,8,.9)
 $alumni-accent: rgb(255, 204, 0)
 $alumni-accent-t7: rgba(255, 204, 0, .7)
 
-$nd-navy: rgb(10, 35, 63)
+$nd-navy: rgb(0, 43, 92)
+$nd-navy-dark: rgb(13, 34, 64)
+$nd-gold: rgb(201, 151, 44)
 
 $white-transparent-6: rgba(255, 255, 255, 0.6)
 $white-transparent-7: rgba(255, 255, 255, 0.7)
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Merriweather|Muli')
 
 html, body
     height: 100%
@@ -25,8 +29,30 @@ h1, h2, h3, h4, h5, h6
 .card-text, p, a
     font-family: 'Muli', sans-serif
 
+/** brand bar **/
+.brand-bar
+    background-color: $nd-navy
+    padding: .75em 0
+    border-bottom: 3px solid $nd-navy-dark
+
+.brand-bar img
+    height: 1em
+
+.brand-bar a
+    text-align: left
+    margin-left: -.75em
+
+@media (max-width: 767px)
+    .brand-bar a
+        text-align: center
+        margin-left: 0
+
+@media (max-width: 320px)
+    .brand-bar img
+        height: .9em
 
 /** custom navbar CSS **/
+
 .link
     font-family: 'Crimson Text'
     font-size: 1.2em
@@ -36,6 +62,11 @@ h1, h2, h3, h4, h5, h6
 
 .bg-alumni
     background-color: $alumni-dark-t9
+
+.stick-top
+    position: sticky
+    z-index: 1000
+    top: 0
 
 .link
     color: #fff
@@ -76,7 +107,7 @@ footer a
 #academic-mark
     height: 3em
 
-@media (max-width: 768px)
+@media (max-width: 767px)
     .desktop-footer
         display: none
     
@@ -105,6 +136,10 @@ footer a
     padding-bottom: 1.5vh
     font-size: 4em
 
+@media (max-width: 767px)
+    .banner
+        font-size: 2.5em
+
 .img-responsive
     display: inline-block
 
@@ -125,10 +160,19 @@ footer a
     color: $alumni-dark
     border-bottom: .04em solid $alumni-accent
 
+@media (max-width: 576px)
+    .section-title
+        font-size: 3em
+
+
 .blockquote
     padding: 1em 0 1em 0
     color: $alumni-dark
     font-size: 1.4em
+
+@media (max-width: 576px)
+    .blockquote
+        font-size: 1.2em
 
 .blockquote-footer
     color: $alumni-dark-t6
@@ -155,7 +199,7 @@ footer a
     width: 70%
     margin-left: 15%
 
-@media (max-width: 768px)
+@media (max-width: 767px)
     .card-img-top
         width: 50%
         margin-left: 25%
@@ -173,3 +217,7 @@ footer a
     border-color: $alumni-accent
     color: $alumni-dark
     transition: 750ms
+
+.btn-top
+    margin-top: 1em
+    text-align: center
