@@ -157,6 +157,7 @@ width: 100%;
   background-size: cover;
   padding-top: 25vh;
 }
+
 .jumbotronfaith {
   background-image: url(../images/FaithBg.jpg);
   z-index: -10;
@@ -221,6 +222,7 @@ width: 100%;
 @media (max-width: 576px) {
   .blockquote {
     font-size: 1.2em;
+
   }
 }
 
