@@ -8,7 +8,16 @@ h1, h2, h3, h4, h5, h6 {
 .NDbanner {
   height: 50px;
   width: 100%;
-  background-color: red;
+  background-color: #0A233F;
+  color: #ffffff;
+  padding-left: 2em;
+  line-height: 50px;
+
+.NDbanner img{
+  vertical-align: middle;
+  width:300px;
+  maxwidth:100%;
+}
 }
 .card-text, p, a {
   font-family: 'Muli', sans-serif;
@@ -75,10 +84,10 @@ footer a {
   text-decoration: underline;
 }
 .navbarFixed {
-  top: 0;
-  z-index: 100;
+z-index: 100;
+width: 100%;
   position: fixed;
-  width: 100%;
+  top: 0;
 }
 .mobile-footer {
   display: none;
