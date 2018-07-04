@@ -9,6 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-text, p, a {
   font-family: 'Muli', sans-serif;
+  font-size: 1.1em;
 }
 
 /** brand bar **/
@@ -120,19 +121,7 @@ footer a {
   }
 }
 
-/** hero image **/
-.jumbotron {
-  background-image: url(../images/tower-green.png);
-  z-index: -10;
-  background-attachment: fixed;
-  height: 88%;
-  width: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 20vh;
-}
-
+/* core classes */
 .banner {
   color: rgba(255, 255, 255, 0.7);
   padding-bottom: 1.5vh;
@@ -145,21 +134,12 @@ footer a {
   }
 }
 
-.img-responsive {
-  display: inline-block;
-}
-
 /**  sections  **/
 .content {
   background-color: #fefff9;
   padding-top: 3.5em;
   padding-bottom: 2em;
   margin-top: -2em;
-}
-
-#coatOfArms {
-  padding-top: 1em;
-  padding-bottom: 1em;
 }
 
 .section-title {
@@ -243,51 +223,4 @@ footer a {
   -webkit-transition: 750ms;
   transition: 750ms;
 }
-
-.btn-top {
-  margin-top: 1em;
-  text-align: center;
-}
-
-/* hero image */
-.jumbotron {
-  background-image: url("/images/banners/tower-green.png");
-  z-index: -10;
-  background-attachment: fixed;
-  height: 88%;
-  width: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 20vh;
-}
-
-.img-responsive {
-  display: inline-block;
-}
-
-/* cards */
-.btn-top {
-  border: 2px solid #051f08;
-  background-color: #fefff9;
-  color: #051f08;
-}
-
-.btn-top:hover {
-  background-color: #106300;
-  color: #fefff9;
-  border: 2px solid #106300;
-}
-
-#faith {
-  padding-bottom: 3em;
-}
-
-blockquote p {
-  font-size: 1.15em;
-}
-
-.mtext {
-  font-size: 1.07em;
-}
-/*# sourceMappingURL=homepage.css.map */
+/*# sourceMappingURL=faith.css.map */
