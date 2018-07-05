@@ -232,7 +232,6 @@ footer a {
 /* hero image */
 .jumbotron {
   background-image: url("/images/banners/tower-green.png");
-  z-index: -10;
   background-attachment: fixed;
   height: 88%;
   width: auto;
@@ -244,7 +243,7 @@ footer a {
 
 .banner {
   color: rgba(255, 255, 255, 0.7);
-  padding-bottom: 01.5vh;
+  padding-bottom: 1.5vh;
   font-size: 4em;
 }
 
