@@ -112,33 +112,6 @@ footer a
         display: block
         text-align: center
 
-
-/** hero image **/
-
-.jumbotron
-    background-image: url(../images/tower-green.png)
-    z-index: -10
-    background-attachment: fixed
-    height: 88%
-    width: auto
-    background-position: center
-    background-repeat: no-repeat
-    background-size: cover
-    padding-top: 20vh
-
-    
-.banner
-    color: $white-transparent-7
-    padding-bottom: 1.5vh
-    font-size: 4em
-
-@media (max-width: 767px)
-    .banner
-        font-size: 2.5em
-
-.img-responsive
-    display: inline-block
-
 /**  sections  **/
 .content
     background-color: $alumni-light
@@ -217,3 +190,11 @@ footer a
 .btn-top
     margin-top: 1em
     text-align: center
+    border: 2px solid $alumni-dark
+    background-color: $alumni-light
+    color: $alumni-dark
+
+.btn-top:hover
+    background-color: $primary-color
+    color: $alumni-light
+    border: 2px solid $primary-color

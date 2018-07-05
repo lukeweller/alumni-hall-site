@@ -120,35 +120,6 @@ footer a {
   }
 }
 
-/** hero image **/
-.jumbotron {
-  background-image: url(../images/tower-green.png);
-  z-index: -10;
-  background-attachment: fixed;
-  height: 88%;
-  width: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 20vh;
-}
-
-.banner {
-  color: rgba(255, 255, 255, 0.7);
-  padding-bottom: 1.5vh;
-  font-size: 4em;
-}
-
-@media (max-width: 767px) {
-  .banner {
-    font-size: 2.5em;
-  }
-}
-
-.img-responsive {
-  display: inline-block;
-}
-
 /**  sections  **/
 .content {
   background-color: #fefff9;
@@ -247,6 +218,15 @@ footer a {
 .btn-top {
   margin-top: 1em;
   text-align: center;
+  border: 2px solid #051f08;
+  background-color: #fefff9;
+  color: #051f08;
+}
+
+.btn-top:hover {
+  background-color: #106300;
+  color: #fefff9;
+  border: 2px solid #106300;
 }
 
 /* hero image */
@@ -262,21 +242,24 @@ footer a {
   padding-top: 20vh;
 }
 
+.banner {
+  color: rgba(255, 255, 255, 0.7);
+  padding-bottom: 01.5vh;
+  font-size: 4em;
+}
+
+@media (max-width: 767px) {
+  .banner {
+    font-size: 2.5em;
+  }
+}
+
 .img-responsive {
   display: inline-block;
 }
 
-/* cards */
-.btn-top {
-  border: 2px solid #051f08;
-  background-color: #fefff9;
-  color: #051f08;
-}
-
-.btn-top:hover {
-  background-color: #106300;
-  color: #fefff9;
-  border: 2px solid #106300;
+#hero-img {
+  height: 25vh;
 }
 
 #faith {
@@ -287,7 +270,13 @@ blockquote p {
   font-size: 1.15em;
 }
 
+/* paragraph text */
 .mtext {
   font-size: 1.07em;
+}
+
+/* card button */
+.btn-card {
+  border: 1.5px solid rgba(255, 255, 255, 0.7);
 }
 /*# sourceMappingURL=homepage.css.map */
