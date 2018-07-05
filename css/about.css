@@ -237,6 +237,10 @@ footer a {
   border: 2px solid #106300;
 }
 
+p {
+  font-size: 1.1em;
+}
+
 .jumbotron {
   background-image: url("/images/banners/1978_dawgs_william_reifsteck.jpg");
   z-index: -10;
@@ -267,5 +271,36 @@ footer a {
   .banner {
     font-size: 2.5em;
   }
+}
+
+.side-col {
+  padding-bottom: 2em;
+  padding-right: 1.5em;
+}
+
+.side-items {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 1em;
+}
+
+.side-items p {
+  font-size: 1.1em;
+}
+
+@media (max-width: 767px) {
+  .side-col {
+    padding: 0 0 0 0;
+  }
+  .section-title {
+    padding-top: 1em;
+  }
+}
+
+.sub-section-title {
+  padding: 1em 0 .1em 0;
+}
+
+.text-img {
+  padding: 1em 0 2em 0;
 }
 /*# sourceMappingURL=about.css.map */
