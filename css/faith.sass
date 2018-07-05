@@ -1,6 +1,7 @@
 @import styles
 
 $black-t1: rgba(0, 0, 0, .15)
+$dark-bg: rgba(0,0,0,.05)
 
 .jumbotron
     background-image: url('/images/banners/candlelight_mass.jpg')
@@ -29,8 +30,7 @@ $black-t1: rgba(0, 0, 0, .15)
 .main-content
     font-size: 1.05em
 
-.main-content h2, .side-content h2
-    padding-top: .75em
+
     
 .btn-top
     margin-top: 1em
@@ -43,3 +43,18 @@ $black-t1: rgba(0, 0, 0, .15)
     background-color: $primary-color
     color: $alumni-light
     border: 2px solid $primary-color
+
+.side-col
+    padding-bottom: 2em
+    padding-right: 1.5em
+
+.side-items
+    background-color: $dark-bg
+    padding: 1em
+
+.side-items p
+    font-size: 1.05em
+
+@media (max-width: 767px)
+    .side-col
+        padding: 0 0 0 0

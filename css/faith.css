@@ -269,10 +269,6 @@ footer a {
   font-size: 1.05em;
 }
 
-.main-content h2, .side-content h2 {
-  padding-top: .75em;
-}
-
 .btn-top {
   margin-top: 1em;
   text-align: center;
@@ -285,5 +281,25 @@ footer a {
   background-color: #106300;
   color: #fefff9;
   border: 2px solid #106300;
+}
+
+.side-col {
+  padding-bottom: 2em;
+  padding-right: 1.5em;
+}
+
+.side-items {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 1em;
+}
+
+.side-items p {
+  font-size: 1.05em;
+}
+
+@media (max-width: 767px) {
+  .side-col {
+    padding: 0 0 0 0;
+  }
 }
 /*# sourceMappingURL=faith.css.map */
