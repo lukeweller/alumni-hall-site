@@ -228,4 +228,36 @@ footer a {
   color: #fefff9;
   border: 2px solid #106300;
 }
+
+.jumbotron {
+  background-image: url("/images/banners/alumni.jpg");
+  z-index: -10;
+  background-attachment: fixed;
+  height: 65%;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 12vh;
+}
+
+.img-responsive {
+  display: inline-block;
+}
+
+.banner {
+  color: rgba(255, 255, 255, 0.7);
+  padding-bottom: 1.5vh;
+  font-size: 4em;
+}
+
+#hero-img {
+  height: 20vh;
+}
+
+@media (max-width: 767px) {
+  .banner {
+    font-size: 2.5em;
+  }
+}
 /*# sourceMappingURL=pups.css.map */

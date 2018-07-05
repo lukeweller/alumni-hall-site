@@ -244,7 +244,7 @@ footer a {
 
 .banner {
   color: rgba(255, 255, 255, 0.7);
-  padding-bottom: 1.5vh;
+  padding-bottom: 01.5vh;
   font-size: 4em;
 }
 
@@ -258,6 +258,10 @@ footer a {
   display: inline-block;
 }
 
+#hero-img {
+  height: 25vh;
+}
+
 #faith {
   padding-bottom: 3em;
 }
@@ -266,7 +270,13 @@ blockquote p {
   font-size: 1.15em;
 }
 
+/* paragraph text */
 .mtext {
   font-size: 1.07em;
+}
+
+/* card button */
+.btn-card {
+  border: 1.5px solid rgba(255, 255, 255, 0.7);
 }
 /*# sourceMappingURL=homepage.css.map */

@@ -253,11 +253,8 @@ footer a {
   }
 }
 
-#hero-container {
-  background-color: rgba(0, 0, 0, 0.15);
-  margin: -12vh 0;
-  padding-top: 12vh;
-  height: 100vh;
+#hero-img {
+  height: 20vh;
 }
 
 .main-content {
