@@ -241,10 +241,6 @@ p {
   font-size: 1.1em;
 }
 
-a {
-  text-decoration: underline;
-}
-
 nav > div > a {
   text-decoration: none;
 }

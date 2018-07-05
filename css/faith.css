@@ -15,6 +15,10 @@ a {
   color: #106300;
 }
 
+a:hover {
+  color: #106300;
+}
+
 /** brand bar **/
 .brand-bar {
   background-color: #002b5c;
@@ -234,7 +238,7 @@ footer a {
 }
 
 .jumbotron {
-  background-image: url("/images/banners/faith_bg.jpg");
+  background-image: url("/images/banners/candlelight_mass.jpg");
   z-index: -10;
   background-attachment: fixed;
   height: 65%;
