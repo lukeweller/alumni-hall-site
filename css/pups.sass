@@ -1,5 +1,28 @@
 @import styles
 
+$dark-bg: rgba(0,0,0,.05)
+
+p
+    font-size: 1.1em
+
+a
+    text-decoration: underline
+
+nav > div > a
+    text-decoration: none
+
+.side-nav
+    padding-bottom: 2em
+
+.nav-items
+    background-color: $dark-bg
+    padding: 1em 2.5em 1em 1em
+
+@media (max-width: 767px)
+    .side-nav
+        display: none
+
+
 .jumbotron
     background-image: url('/images/banners/alumni_17-18.jpg')
     z-index: -10
@@ -25,4 +48,12 @@
 @media (max-width: 767px)
     .banner
         font-size: 2.5em
-    
+
+/* optimize for larger screens */
+@media (min-width: 768px)
+    .embeded-item
+        max-width: 60%
+        margin-left: 20%
+
+.sub-section-title
+    padding-top: 1.5em
