@@ -6,20 +6,7 @@ html, body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
 }
-.brandbar {
-  height: 50px;
-  width: 100%;
-  background-color: #0A233F;
-  color: #ffffff;
-  padding-left: 2em;
-  line-height: 50px;
 
-.brandbar img{
-  vertical-align: middle;
-  width:300px;
-  maxwidth:100%;
-}
-}
 .card-text, p, a {
   font-family: 'Muli', sans-serif;
 }
@@ -114,12 +101,7 @@ footer a {
   color: #051f08;
   text-decoration: underline;
 }
-.navbarFixed {
-z-index: 100;
-width: 100%;
-  position: fixed;
 
-}
 .mobile-footer {
   display: none;
 }
@@ -173,7 +155,6 @@ width: 100%;
 @media (max-width: 576px) {
   .blockquote {
     font-size: 1.2em;
-
   }
 }
 
