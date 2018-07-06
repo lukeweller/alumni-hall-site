@@ -311,8 +311,10 @@ p {
   margin-top: .5em;
 }
 
-#staff {
-  padding-top: 1em;
+@media (max-width: 767px) {
+  #staff {
+    padding-top: 1em;
+  }
 }
 
 #ra {
