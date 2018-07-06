@@ -311,7 +311,7 @@ p {
 #wake-count {
   font-size: 2.5em;
   text-align: center;
-  min-width: 100%;
+  font-family: 'Muli';
 }
 
 @media (min-width: 768px) {
