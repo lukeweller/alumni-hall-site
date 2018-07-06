@@ -108,6 +108,11 @@ a:hover {
 footer a {
   color: #051f08;
   text-decoration: underline;
+  font-size: 1em;
+}
+
+footer p {
+  font-size: 1emm;
 }
 
 .mobile-footer {
@@ -266,6 +271,65 @@ footer a {
 @media (max-width: 767px) {
   .banner {
     font-size: 2.5em;
+  }
+}
+
+.side-col {
+  padding-bottom: 2em;
+  padding-right: 1.5em;
+}
+
+.side-items {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 1em;
+}
+
+.side-items a {
+  font-size: 1.1em;
+}
+
+@media (max-width: 767px) {
+  .side-col {
+    padding: 0 0 0 0;
+  }
+}
+
+p {
+  font-size: 1.05em;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.position {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #051f08;
+          text-decoration-color: #051f08;
+  border-top: 2px solid rgba(16, 99, 0, 0.7);
+  padding: .75em 0;
+  margin-top: .5em;
+}
+
+#staff {
+  padding-top: 1em;
+}
+
+#ra {
+  padding-bottom: 0;
+}
+
+h3 {
+  padding: .5em;
+  color: #051f08;
+  border: 2px solid #ffcc00;
+  margin: 1em 0;
+  border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+  h4 {
+    padding: 1em 0;
   }
 }
 /*# sourceMappingURL=staff.css.map */
