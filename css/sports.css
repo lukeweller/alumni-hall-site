@@ -32,13 +32,12 @@ a:hover {
 
 .brand-bar a {
   text-align: left;
-  margin-left: -.75em;
 }
 
 @media (max-width: 767px) {
   .brand-bar a {
     text-align: center;
-    margin-left: 0;
+    margin: 0 auto;
   }
 }
 
@@ -271,6 +270,29 @@ footer p {
 @media (max-width: 767px) {
   .banner {
     font-size: 2.5em;
+  }
+}
+
+.side-col {
+  padding-bottom: 2em;
+  padding-right: 1.5em;
+}
+
+.side-items {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 1em;
+}
+
+.side-items p {
+  font-size: 1.1em;
+}
+
+@media (max-width: 767px) {
+  .side-col {
+    padding: 0 0 0 0;
+  }
+  .section-title {
+    padding-top: 1em;
   }
 }
 /*# sourceMappingURL=sports.css.map */

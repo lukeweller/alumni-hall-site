@@ -32,13 +32,12 @@ a:hover {
 
 .brand-bar a {
   text-align: left;
-  margin-left: -.75em;
 }
 
 @media (max-width: 767px) {
   .brand-bar a {
     text-align: center;
-    margin-left: 0;
+    margin: 0 auto;
   }
 }
 
@@ -307,5 +306,23 @@ p {
 
 .text-img {
   padding: 1em 0 2em 0;
+}
+
+#wake-count {
+  font-size: 2.5em;
+  text-align: center;
+  min-width: 100%;
+}
+
+@media (min-width: 768px) {
+  #wake-count {
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 1024px) {
+  #wake-count {
+    font-size: 4em;
+  }
 }
 /*# sourceMappingURL=about.css.map */
