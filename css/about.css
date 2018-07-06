@@ -308,20 +308,20 @@ p {
   padding: 1em 0 2em 0;
 }
 
-#wake-count {
+p#wake-count {
   font-size: 2.5em;
   text-align: center;
   font-family: 'Muli';
 }
 
 @media (min-width: 768px) {
-  #wake-count {
+  p#wake-count {
     font-size: 3em;
   }
 }
 
 @media (min-width: 1024px) {
-  #wake-count {
+  p#wake-count {
     font-size: 4em;
   }
 }
