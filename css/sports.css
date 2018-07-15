@@ -36,8 +36,8 @@ a:hover {
 
 @media (max-width: 767px) {
   .brand-bar a {
-    text-align: center;
     margin: 0 auto;
+    text-align: center;
   }
 }
 

@@ -32,13 +32,12 @@ a:hover {
 
 .brand-bar a {
   text-align: left;
-  margin-left: -.75em;
 }
 
 @media (max-width: 767px) {
   .brand-bar a {
     text-align: center;
-    margin-left: 0;
+    margin: 0 auto;
   }
 }
 
@@ -306,7 +305,7 @@ p {
   border: 2px solid #ffcc00;
   border-radius: 5px;
   padding: .5em 0;
-  margin: 1em 0;
+  margin: 1.5em 0;
 }
 
 @media (max-width: 767px) {
@@ -327,12 +326,12 @@ h3 {
 }
 
 #second, #third {
-  padding-top: 1em;
+  padding-top: 2em;
 }
 
 @media (max-width: 767px) {
   h4 {
-    padding: 1em 0;
+    padding: 1.5em 0;
   }
 }
 /*# sourceMappingURL=staff.css.map */
