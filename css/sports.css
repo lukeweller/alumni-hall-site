@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Merriweather|Muli");
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+}
+
+.card-text, p, a {
+  font-family: 'Muli', sans-serif;
+}
+
+a {
+  color: #106300;
+}
+
+a:hover {
+  color: #106300;
+}
+
+/** brand bar **/
+.brand-bar {
+  background-color: #002b5c;
+  padding: .75em 0;
+  border-bottom: 3px solid #0d2240;
+}
+
+.brand-bar img {
+  height: 1em;
+}
+
+.brand-bar a {
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .brand-bar a {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .brand-bar img {
+    height: .9em;
+  }
+}
+
+/** custom navbar CSS **/
+#nav-logo {
+  height: 1.5em;
+}
+
+.bg-alumni {
+  background-color: #051f08;
+}
+
+.link {
+  font-family: 'Crimson Text';
+  font-size: 1.2em;
+  color: #fff;
+  -webkit-transition: 750ms;
+  transition: 750ms;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  padding: .3em 1em;
+}
+
+.link:hover {
+  color: rgba(255, 255, 255, 0.6);
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+}
+
+@media (min-width: 768px) {
+  .link {
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    -webkit-transition: 750ms;
+    transition: 750ms;
+    -webkit-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
+  }
+  .link:hover {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+    -webkit-transition: 250ms;
+    transition: 250ms;
+    -webkit-transition-timing-function: ease-in;
+            transition-timing-function: ease-in;
+  }
+  a.active {
+    border-bottom: 2px solid #fff;
+  }
+}
+
+/* custom footer CSS */
+#footer {
+  padding: 2em 0 2em 0;
+  background-color: #fefff9;
+  margin-top: 2em;
+  border-top: 2px solid #ffcc00;
+  color: #051f08;
+}
+
+footer a {
+  color: #051f08;
+  text-decoration: underline;
+  font-size: 1em;
+}
+
+footer p {
+  font-size: 1emm;
+}
+
+.mobile-footer {
+  display: none;
+}
+
+#academic-mark {
+  height: 3em;
+}
+
+@media (max-width: 767px) {
+  .desktop-footer {
+    display: none;
+  }
+  .mobile-footer {
+    display: block;
+    text-align: center;
+  }
+}
+
+/**  sections  **/
+.content {
+  background-color: #fefff9;
+  padding-top: 3.5em;
+  padding-bottom: 2em;
+  margin-top: -2em;
+}
+
+#coatOfArms {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.section-title {
+  font-size: 3.5em;
+  padding-bottom: .1em;
+  color: #051f08;
+  border-bottom: 0.04em solid #ffcc00;
+}
+
+@media (max-width: 576px) {
+  .section-title {
+    font-size: 3em;
+  }
+}
+
+.blockquote {
+  padding: 1em 0 1em 0;
+  color: #051f08;
+  font-size: 1.25em;
+}
+
+@media (max-width: 576px) {
+  .blockquote {
+    font-size: 1.2em;
+  }
+}
+
+.blockquote-footer {
+  color: rgba(5, 31, 8, 0.6);
+}
+
+.section-content {
+  font-size: 1.2em;
+}
+
+/* card css */
+.card {
+  border-radius: 10px;
+  background-color: #051f08;
+  padding: 1em;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  height: 100%;
+}
+
+.card:hover {
+  -webkit-transition: 350ms;
+  transition: 350ms;
+  background-color: #106300;
+}
+
+.card-title, .card-text {
+  color: #ffffff;
+}
+
+.card-img-top {
+  width: 70%;
+  margin-left: 15%;
+}
+
+@media (max-width: 767px) {
+  .card-img-top {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+
+.btn-primary {
+  background-color: #051f08;
+  border-color: rgba(255, 255, 255, 0.7);
+  padding: .5em .75em;
+  border-radius: 5px;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.btn-primary:hover {
+  background-color: #ffcc00;
+  border-color: #ffcc00;
+  color: #051f08;
+  -webkit-transition: 750ms;
+  transition: 750ms;
+}
+
+.btn-top {
+  margin-top: 1em;
+  text-align: center;
+  border: 2px solid #051f08;
+  background-color: #fefff9;
+  color: #051f08;
+}
+
+.btn-top:hover {
+  background-color: #106300;
+  color: #fefff9;
+  border: 2px solid #106300;
+}
+
+.jumbotron {
+  background-image: url("/images/Matt Cashore/bb_fgr.jpg");
+  z-index: -10;
+  background-attachment: fixed;
+  height: 65%;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 12vh;
+}
+
+.img-responsive {
+  display: inline-block;
+}
+
+.banner {
+  color: rgba(255, 255, 255, 0.7);
+  padding-bottom: 1.5vh;
+  font-size: 4em;
+}
+
+#hero-img {
+  height: 20vh;
+}
+
+@media (max-width: 767px) {
+  .banner {
+    font-size: 2.5em;
+  }
+}
+
+.side-col {
+  padding-bottom: 2em;
+  padding-right: 1.5em;
+}
+
+.side-items {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 1em;
+}
+
+.side-items p {
+  font-size: 1.1em;
+}
+
+@media (max-width: 767px) {
+  .side-col {
+    padding: 0 0 0 0;
+  }
+  .section-title {
+    padding-top: 1em;
+  }
+}
+/*# sourceMappingURL=sports.css.map */

@@ -1,0 +1,209 @@
+$primary-color: rgb(16,99,0)
+$primary-color-t6: rgba(16, 99, 0, .7)
+
+$alumni-light: rgb(254, 255, 249)
+
+$alumni-dark: rgb(5, 31, 8)
+$alumni-dark-t6: rgba(5, 31, 8, .6)
+$alumni-dark-t9: rgba(5,31,8,.9)
+
+$alumni-accent: rgb(255, 204, 0)
+$alumni-accent-t7: rgba(255, 204, 0, .7)
+
+$nd-navy: rgb(0, 43, 92)
+$nd-navy-dark: rgb(13, 34, 64)
+$nd-gold: rgb(201, 151, 44)
+
+$white-transparent-6: rgba(255, 255, 255, 0.6)
+$white-transparent-7: rgba(255, 255, 255, 0.7)
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Merriweather|Muli')
+
+html, body
+    height: 100%
+    
+
+h1, h2, h3, h4, h5, h6
+    font-family: 'Merriweather', serif
+
+.card-text, p, a
+    font-family: 'Muli', sans-serif
+
+a
+    color: $primary-color
+
+a:hover
+    color: $primary-color
+
+/** brand bar **/
+.brand-bar
+    background-color: $nd-navy
+    padding: .75em 0
+    border-bottom: 3px solid $nd-navy-dark
+
+.brand-bar img
+    height: 1em
+
+.brand-bar a
+    text-align: left
+
+@media (max-width: 767px)
+    .brand-bar a
+        text-align: center
+        margin: 0 auto
+
+@media (max-width: 320px)
+    .brand-bar img
+        height: .9em
+
+/** custom navbar CSS **/
+
+#nav-logo
+    height: 1.5em
+
+.bg-alumni
+    background-color: $alumni-dark
+
+.link
+    font-family: 'Crimson Text'
+    font-size: 1.2em
+    color: #fff
+    transition: 750ms
+    transition-timing-function: ease-out
+    padding: .3em 1em
+    
+.link:hover
+    color: $white-transparent-6
+    transition: 250ms
+    transition-timing-function: ease-in 
+
+@media (min-width: 768px)
+    .link
+        border-bottom: 2px solid rgba(255, 255, 255, 0)
+        transition: 750ms
+        transition-timing-function: ease-out
+    
+    .link:hover
+        border-bottom: 2px solid $white-transparent-6
+        transition: 250ms
+        transition-timing-function: ease-in 
+    
+    a.active
+        border-bottom: 2px solid #fff
+
+/* custom footer CSS */
+#footer
+    padding: 2em 0 2em 0
+    background-color: $alumni-light
+    margin-top: 2em
+    border-top: 2px solid $alumni-accent
+    color: $alumni-dark
+
+footer a
+  color: $alumni-dark
+  text-decoration: underline
+  font-size: 1em
+
+footer p
+  font-size: 1emm
+
+.mobile-footer
+    display: none
+
+#academic-mark
+    height: 3em
+
+@media (max-width: 767px)
+    .desktop-footer
+        display: none
+    
+    .mobile-footer
+        display: block
+        text-align: center
+
+/**  sections  **/
+.content
+    background-color: $alumni-light
+    padding-top: 3.5em
+    padding-bottom: 2em
+    margin-top: -2em
+
+#coatOfArms
+    padding-top: 1em
+    padding-bottom: 1em
+
+.section-title
+    font-size: 3.5em
+    padding-bottom: .1em
+    color: $alumni-dark
+    border-bottom: .04em solid $alumni-accent
+
+@media (max-width: 576px)
+    .section-title
+        font-size: 3em
+
+
+.blockquote
+    padding: 1em 0 1em 0
+    color: $alumni-dark
+    font-size: 1.25em
+
+@media (max-width: 576px)
+    .blockquote
+        font-size: 1.2em
+
+.blockquote-footer
+    color: $alumni-dark-t6
+
+.section-content
+    font-size: 1.2em
+
+/* card css */
+.card
+    border-radius: 10px
+    background-color: $alumni-dark
+    padding: 1em
+    transition: 500ms
+    height: 100%
+
+.card:hover
+    transition: 350ms
+    background-color: $primary-color
+
+.card-title, .card-text
+    color: #ffffff
+
+.card-img-top
+    width: 70%
+    margin-left: 15%
+
+@media (max-width: 767px)
+    .card-img-top
+        width: 50%
+        margin-left: 25%
+    
+
+.btn-primary
+    background-color: $alumni-dark
+    border-color: $white-transparent-7
+    padding: .5em .75em
+    border-radius: 5px
+    transition: 500ms
+
+.btn-primary:hover
+    background-color: $alumni-accent
+    border-color: $alumni-accent
+    color: $alumni-dark
+    transition: 750ms
+
+.btn-top
+    margin-top: 1em
+    text-align: center
+    border: 2px solid $alumni-dark
+    background-color: $alumni-light
+    color: $alumni-dark
+
+.btn-top:hover
+    background-color: $primary-color
+    color: $alumni-light
+    border: 2px solid $primary-color

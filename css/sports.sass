@@ -1,0 +1,47 @@
+@import styles
+
+$dark-bg: rgba(0,0,0,.05)
+
+.jumbotron
+    background-image: url('/images/Matt Cashore/bb_fgr.jpg')
+    z-index: -10
+    background-attachment: fixed
+    height: 65%
+    width: auto
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    padding-top: 12vh
+
+.img-responsive
+    display: inline-block
+
+.banner
+  color: $white-transparent-7
+  padding-bottom: 1.5vh
+  font-size: 4em
+
+#hero-img
+  height: 20vh
+
+@media (max-width: 767px)
+    .banner
+        font-size: 2.5em
+
+.side-col
+    padding-bottom: 2em
+    padding-right: 1.5em
+
+.side-items
+    background-color: $dark-bg
+    padding: 1em
+
+.side-items p
+    font-size: 1.1em
+
+@media (max-width: 767px)
+    .side-col
+        padding: 0 0 0 0
+
+    .section-title
+        padding-top: 1em
